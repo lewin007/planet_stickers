@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'img/dragonBall/dragonBall (2).jpg'
         ]},
         { category: 'animefilms', paths: [
-            'img/animefilms/animefilms (1).jpg',
+            'img/animefilms/animefilms (1).JPG',
             'img/animefilms/animefilms (2).jpg'
         ]},
         { category: 'football', paths: [
