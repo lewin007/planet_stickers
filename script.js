@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const stickerImages = [
        { category: 'arcane', paths: [
         'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/arcane/arcane%20(1).JPG',
-        'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/arcane/arcane%20(2).JPG',
+        'https://github.com/lewin007/planet_stickers/blob/d8e12304329b111538c1717522d8b8b8a211f28f/img/arcane/arcane%20(2).JPG',
         'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/arcane/arcane%20(3).JPG'
     ]},
     { category: 'attackOnTitan', paths: [
@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function() {
     ]},
     { category: 'avengers', paths: [
         'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/avengers/avengers%20(1).JPG',
-        'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/avengers/avengers%20(2).JPG'
+        "https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/avengers/avengers%20(2).JPG"
     ]},
     { category: 'batman', paths: [
         'https://github.com/lewin007/planet_stickers/blob/29d46723e48c39bddb18c0c262fd8336f718aee4/img/batman/batman%20(1).JPG'
