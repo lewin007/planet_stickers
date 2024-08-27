@@ -312,7 +312,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'img/kongfuPanda/kongfuPanda (1).jpg'
         ]},
         { category: 'lacasadelpaper', paths: [
-            'img/lacasadelpaper/lacasadelpaper (1).jpg'
+            'img/laCasaDelPaper/laCasaDelPaper (1).JPG'
         ]},
         { category: 'lalaland', paths: [
             'img/lalaland/lalaland (1).jpg'
