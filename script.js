@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'img/meme/meme (20).jpg'
         ]},
         { category: 'arcane', paths: [
-            'img/arcane/arcane (1).jpg',
+            'img/arcane/arcane (1).JPG',
             'img/arcane/arcane (2).jpg'
         ]},
         { category: 'architecture', paths: [
