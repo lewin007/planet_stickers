@@ -86,13 +86,13 @@ document.addEventListener("DOMContentLoaded", function() {
         "zatla": 3,
     };
 
-    Object.keys(stickerCategories).forEach(category => {
+Object.keys(stickerCategories).forEach(category => {
     const imageCount = stickerCategories[category];
     for (let i = 1; i <= imageCount; i++) {
         const img = document.createElement('img');
         
         // Assuming images are stored in the 'assets' folder at the root of your project
-        img.src = `./img/${category}/${category} (${i}).jpg`;
+        img.src = `./assets/${category}/${category} (${i}).jpg`;
         
         img.alt = `${category} Sticker ${i}`;
         img.classList.add('sticker');
@@ -101,6 +101,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.getElementById('stickerContainer').appendChild(img);
     }
 });
+
 
             
             const checkbox = document.createElement('input');
