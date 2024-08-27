@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'img/meme/meme (20).jpg'
         ]},
         { category: 'arcane', paths: [
-            'img/arcane/arcane (1).JPG',
+            "img/arcane/arcane (1).JPG",
             'img/arcane/arcane (2).jpg'
         ]},
         { category: 'architecture', paths: [
@@ -573,18 +573,4 @@ window.addEventListener('scroll', function() {
     }
 });
 
-// Scroll to the top when the arrow is clicked
-document.getElementById('scrollToTop').addEventListener('click', function() {
-    window.scrollTo({
-        top: 0,
-        behavior: 'smooth'
-    });
-});
 
-document.addEventListener('scroll', function() {
-    if (window.scrollY > 200) {
-        document.body.classList.add('scrolled');
-    } else {
-        document.body.classList.remove('scrolled');
-    }
-});
