@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function() {
             'img/meme/meme (20).jpg'
         ]},
         { category: 'arcane', paths: [
-            "img/arcane/arcane (1).JPG",
+            "https://github.com/lewin007/planet_stickers/blob/89579f96eed3e33512af5a51a50a493d26b647ff/img/arcane/arcane%20(1).JPG",
             'img/arcane/arcane (2).jpg'
         ]},
         { category: 'architecture', paths: [
