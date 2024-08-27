@@ -86,15 +86,23 @@ document.addEventListener("DOMContentLoaded", function() {
         "zatla": 3,
     };
 
-    // Create thumbnail elements for each sticker category
     Object.keys(stickerCategories).forEach(category => {
-        const imageCount = stickerCategories[category];
-        for (let i = 1; i <= imageCount; i++) {
-            const img = document.createElement('img');
-            img.src = 'img/arcane/${category} (${i}).jpg';  // Load image based on folder and name
-            img.alt = `${category} Sticker ${i}`;
-            img.classList.add('sticker'); // Add class to image
+    const imageCount = stickerCategories[category];
+    for (let i = 1; i <= imageCount; i++) {
+        const img = document.createElement('img');
+        
+        // Assuming images are stored in the 'assets' folder at the root of your project
+        img.src = `./img/${category}/${category} (${i}).jpg`;
+        
+        img.alt = `${category} Sticker ${i}`;
+        img.classList.add('sticker');
+        
+        // Append img to a container (assumes you have a container to append the images)
+        document.getElementById('stickerContainer').appendChild(img);
+    }
+});
 
+            
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.value = `${category} Sticker ${i}`;
