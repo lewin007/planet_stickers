@@ -282,38 +282,65 @@ input[type="checkbox"]:checked {
 .contact a:hover {
     color: #357EC7;
 }
-/* Scroll to Top Button */
+
+/* Scroll to Top Arrow */
 .scroll-to-top {
     position: fixed;
-    bottom: 20px;
-    right: 20px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #4A90E2;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+    text-align: center;
+    display: none; /* Hidden by default */
+}
+
+.scroll-to-top:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Show the scroll-to-top arrow when scrolled down */
+body.scrolled .scroll-to-top {
+    display: block;
+}
+
+/* Scroll-to-Top Arrow */
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
     width: 50px;
     height: 50px;
     background-color: #4A90E2;
     color: #fff;
     text-align: center;
     line-height: 50px;
-    font-size: 30px;
+    font-size: 24px;
     border-radius: 50%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 1000;
-}
-
-
-.scroll-to-top.visible {
-    opacity: 1;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
 
 .scroll-to-top:hover {
     background-color: #357EC7;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transform: scale(1.1);
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+.scroll-to-top.show {
+    opacity: 1;
+    pointer-events: all;
+}
 
 /* Add fade-in for the arrow */
 @keyframes fadeInArrow {
